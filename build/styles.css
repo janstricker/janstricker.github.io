@@ -4231,6 +4231,10 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-todo{
+  background-image: url('assets/todo.svg');
+}
+
 .from-transparent{
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -10637,366 +10641,6 @@ video {
   border-bottom-left-radius: 9999px;
 }
 
-.hover\:rounded-none:hover{
-  border-radius: 0px;
-}
-
-.hover\:rounded-sm:hover{
-  border-radius: 0.125rem;
-}
-
-.hover\:rounded:hover{
-  border-radius: 0.25rem;
-}
-
-.hover\:rounded-md:hover{
-  border-radius: 0.375rem;
-}
-
-.hover\:rounded-lg:hover{
-  border-radius: 0.5rem;
-}
-
-.hover\:rounded-xl:hover{
-  border-radius: 0.75rem;
-}
-
-.hover\:rounded-2xl:hover{
-  border-radius: 1rem;
-}
-
-.hover\:rounded-3xl:hover{
-  border-radius: 1.5rem;
-}
-
-.hover\:rounded-full:hover{
-  border-radius: 9999px;
-}
-
-.hover\:rounded-t-none:hover{
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-}
-
-.hover\:rounded-r-none:hover{
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-}
-
-.hover\:rounded-b-none:hover{
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
-}
-
-.hover\:rounded-l-none:hover{
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-}
-
-.hover\:rounded-t-sm:hover{
-  border-top-left-radius: 0.125rem;
-  border-top-right-radius: 0.125rem;
-}
-
-.hover\:rounded-r-sm:hover{
-  border-top-right-radius: 0.125rem;
-  border-bottom-right-radius: 0.125rem;
-}
-
-.hover\:rounded-b-sm:hover{
-  border-bottom-right-radius: 0.125rem;
-  border-bottom-left-radius: 0.125rem;
-}
-
-.hover\:rounded-l-sm:hover{
-  border-top-left-radius: 0.125rem;
-  border-bottom-left-radius: 0.125rem;
-}
-
-.hover\:rounded-t:hover{
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-}
-
-.hover\:rounded-r:hover{
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
-}
-
-.hover\:rounded-b:hover{
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-}
-
-.hover\:rounded-l:hover{
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-}
-
-.hover\:rounded-t-md:hover{
-  border-top-left-radius: 0.375rem;
-  border-top-right-radius: 0.375rem;
-}
-
-.hover\:rounded-r-md:hover{
-  border-top-right-radius: 0.375rem;
-  border-bottom-right-radius: 0.375rem;
-}
-
-.hover\:rounded-b-md:hover{
-  border-bottom-right-radius: 0.375rem;
-  border-bottom-left-radius: 0.375rem;
-}
-
-.hover\:rounded-l-md:hover{
-  border-top-left-radius: 0.375rem;
-  border-bottom-left-radius: 0.375rem;
-}
-
-.hover\:rounded-t-lg:hover{
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-}
-
-.hover\:rounded-r-lg:hover{
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-}
-
-.hover\:rounded-b-lg:hover{
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
-}
-
-.hover\:rounded-l-lg:hover{
-  border-top-left-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
-}
-
-.hover\:rounded-t-xl:hover{
-  border-top-left-radius: 0.75rem;
-  border-top-right-radius: 0.75rem;
-}
-
-.hover\:rounded-r-xl:hover{
-  border-top-right-radius: 0.75rem;
-  border-bottom-right-radius: 0.75rem;
-}
-
-.hover\:rounded-b-xl:hover{
-  border-bottom-right-radius: 0.75rem;
-  border-bottom-left-radius: 0.75rem;
-}
-
-.hover\:rounded-l-xl:hover{
-  border-top-left-radius: 0.75rem;
-  border-bottom-left-radius: 0.75rem;
-}
-
-.hover\:rounded-t-2xl:hover{
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-}
-
-.hover\:rounded-r-2xl:hover{
-  border-top-right-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-}
-
-.hover\:rounded-b-2xl:hover{
-  border-bottom-right-radius: 1rem;
-  border-bottom-left-radius: 1rem;
-}
-
-.hover\:rounded-l-2xl:hover{
-  border-top-left-radius: 1rem;
-  border-bottom-left-radius: 1rem;
-}
-
-.hover\:rounded-t-3xl:hover{
-  border-top-left-radius: 1.5rem;
-  border-top-right-radius: 1.5rem;
-}
-
-.hover\:rounded-r-3xl:hover{
-  border-top-right-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
-}
-
-.hover\:rounded-b-3xl:hover{
-  border-bottom-right-radius: 1.5rem;
-  border-bottom-left-radius: 1.5rem;
-}
-
-.hover\:rounded-l-3xl:hover{
-  border-top-left-radius: 1.5rem;
-  border-bottom-left-radius: 1.5rem;
-}
-
-.hover\:rounded-t-full:hover{
-  border-top-left-radius: 9999px;
-  border-top-right-radius: 9999px;
-}
-
-.hover\:rounded-r-full:hover{
-  border-top-right-radius: 9999px;
-  border-bottom-right-radius: 9999px;
-}
-
-.hover\:rounded-b-full:hover{
-  border-bottom-right-radius: 9999px;
-  border-bottom-left-radius: 9999px;
-}
-
-.hover\:rounded-l-full:hover{
-  border-top-left-radius: 9999px;
-  border-bottom-left-radius: 9999px;
-}
-
-.hover\:rounded-tl-none:hover{
-  border-top-left-radius: 0px;
-}
-
-.hover\:rounded-tr-none:hover{
-  border-top-right-radius: 0px;
-}
-
-.hover\:rounded-br-none:hover{
-  border-bottom-right-radius: 0px;
-}
-
-.hover\:rounded-bl-none:hover{
-  border-bottom-left-radius: 0px;
-}
-
-.hover\:rounded-tl-sm:hover{
-  border-top-left-radius: 0.125rem;
-}
-
-.hover\:rounded-tr-sm:hover{
-  border-top-right-radius: 0.125rem;
-}
-
-.hover\:rounded-br-sm:hover{
-  border-bottom-right-radius: 0.125rem;
-}
-
-.hover\:rounded-bl-sm:hover{
-  border-bottom-left-radius: 0.125rem;
-}
-
-.hover\:rounded-tl:hover{
-  border-top-left-radius: 0.25rem;
-}
-
-.hover\:rounded-tr:hover{
-  border-top-right-radius: 0.25rem;
-}
-
-.hover\:rounded-br:hover{
-  border-bottom-right-radius: 0.25rem;
-}
-
-.hover\:rounded-bl:hover{
-  border-bottom-left-radius: 0.25rem;
-}
-
-.hover\:rounded-tl-md:hover{
-  border-top-left-radius: 0.375rem;
-}
-
-.hover\:rounded-tr-md:hover{
-  border-top-right-radius: 0.375rem;
-}
-
-.hover\:rounded-br-md:hover{
-  border-bottom-right-radius: 0.375rem;
-}
-
-.hover\:rounded-bl-md:hover{
-  border-bottom-left-radius: 0.375rem;
-}
-
-.hover\:rounded-tl-lg:hover{
-  border-top-left-radius: 0.5rem;
-}
-
-.hover\:rounded-tr-lg:hover{
-  border-top-right-radius: 0.5rem;
-}
-
-.hover\:rounded-br-lg:hover{
-  border-bottom-right-radius: 0.5rem;
-}
-
-.hover\:rounded-bl-lg:hover{
-  border-bottom-left-radius: 0.5rem;
-}
-
-.hover\:rounded-tl-xl:hover{
-  border-top-left-radius: 0.75rem;
-}
-
-.hover\:rounded-tr-xl:hover{
-  border-top-right-radius: 0.75rem;
-}
-
-.hover\:rounded-br-xl:hover{
-  border-bottom-right-radius: 0.75rem;
-}
-
-.hover\:rounded-bl-xl:hover{
-  border-bottom-left-radius: 0.75rem;
-}
-
-.hover\:rounded-tl-2xl:hover{
-  border-top-left-radius: 1rem;
-}
-
-.hover\:rounded-tr-2xl:hover{
-  border-top-right-radius: 1rem;
-}
-
-.hover\:rounded-br-2xl:hover{
-  border-bottom-right-radius: 1rem;
-}
-
-.hover\:rounded-bl-2xl:hover{
-  border-bottom-left-radius: 1rem;
-}
-
-.hover\:rounded-tl-3xl:hover{
-  border-top-left-radius: 1.5rem;
-}
-
-.hover\:rounded-tr-3xl:hover{
-  border-top-right-radius: 1.5rem;
-}
-
-.hover\:rounded-br-3xl:hover{
-  border-bottom-right-radius: 1.5rem;
-}
-
-.hover\:rounded-bl-3xl:hover{
-  border-bottom-left-radius: 1.5rem;
-}
-
-.hover\:rounded-tl-full:hover{
-  border-top-left-radius: 9999px;
-}
-
-.hover\:rounded-tr-full:hover{
-  border-top-right-radius: 9999px;
-}
-
-.hover\:rounded-br-full:hover{
-  border-bottom-right-radius: 9999px;
-}
-
-.hover\:rounded-bl-full:hover{
-  border-bottom-left-radius: 9999px;
-}
-
 .border-solid{
   border-style: solid;
 }
@@ -14248,6 +13892,46 @@ video {
   max-height: 100vh;
 }
 
+.max-h-xs{
+  max-height: 20rem;
+}
+
+.max-h-sm{
+  max-height: 24rem;
+}
+
+.max-h-md{
+  max-height: 28rem;
+}
+
+.max-h-lg{
+  max-height: 32rem;
+}
+
+.max-h-xl{
+  max-height: 36rem;
+}
+
+.max-h-2xl{
+  max-height: 42rem;
+}
+
+.max-h-3xl{
+  max-height: 48rem;
+}
+
+.max-h-4xl{
+  max-height: 56rem;
+}
+
+.max-h-5xl{
+  max-height: 64rem;
+}
+
+.max-h-6xl{
+  max-height: 72rem;
+}
+
 .max-w-0{
   max-width: 0rem;
 }
@@ -14350,6 +14034,46 @@ video {
 
 .min-h-screen{
   min-height: 100vh;
+}
+
+.min-h-xs{
+  min-height: 20rem;
+}
+
+.min-h-sm{
+  min-height: 24rem;
+}
+
+.min-h-md{
+  min-height: 28rem;
+}
+
+.min-h-lg{
+  min-height: 32rem;
+}
+
+.min-h-xl{
+  min-height: 36rem;
+}
+
+.min-h-2xl{
+  min-height: 42rem;
+}
+
+.min-h-3xl{
+  min-height: 48rem;
+}
+
+.min-h-4xl{
+  min-height: 56rem;
+}
+
+.min-h-5xl{
+  min-height: 64rem;
+}
+
+.min-h-6xl{
+  min-height: 72rem;
 }
 
 .min-w-0{
@@ -35208,6 +34932,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-todo{
+    background-image: url('assets/todo.svg');
+  }
+
   .sm\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -41614,366 +41342,6 @@ video {
     border-bottom-left-radius: 9999px;
   }
 
-  .sm\:hover\:rounded-none:hover{
-    border-radius: 0px;
-  }
-
-  .sm\:hover\:rounded-sm:hover{
-    border-radius: 0.125rem;
-  }
-
-  .sm\:hover\:rounded:hover{
-    border-radius: 0.25rem;
-  }
-
-  .sm\:hover\:rounded-md:hover{
-    border-radius: 0.375rem;
-  }
-
-  .sm\:hover\:rounded-lg:hover{
-    border-radius: 0.5rem;
-  }
-
-  .sm\:hover\:rounded-xl:hover{
-    border-radius: 0.75rem;
-  }
-
-  .sm\:hover\:rounded-2xl:hover{
-    border-radius: 1rem;
-  }
-
-  .sm\:hover\:rounded-3xl:hover{
-    border-radius: 1.5rem;
-  }
-
-  .sm\:hover\:rounded-full:hover{
-    border-radius: 9999px;
-  }
-
-  .sm\:hover\:rounded-t-none:hover{
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-  }
-
-  .sm\:hover\:rounded-r-none:hover{
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-  }
-
-  .sm\:hover\:rounded-b-none:hover{
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-
-  .sm\:hover\:rounded-l-none:hover{
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-
-  .sm\:hover\:rounded-t-sm:hover{
-    border-top-left-radius: 0.125rem;
-    border-top-right-radius: 0.125rem;
-  }
-
-  .sm\:hover\:rounded-r-sm:hover{
-    border-top-right-radius: 0.125rem;
-    border-bottom-right-radius: 0.125rem;
-  }
-
-  .sm\:hover\:rounded-b-sm:hover{
-    border-bottom-right-radius: 0.125rem;
-    border-bottom-left-radius: 0.125rem;
-  }
-
-  .sm\:hover\:rounded-l-sm:hover{
-    border-top-left-radius: 0.125rem;
-    border-bottom-left-radius: 0.125rem;
-  }
-
-  .sm\:hover\:rounded-t:hover{
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-  }
-
-  .sm\:hover\:rounded-r:hover{
-    border-top-right-radius: 0.25rem;
-    border-bottom-right-radius: 0.25rem;
-  }
-
-  .sm\:hover\:rounded-b:hover{
-    border-bottom-right-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem;
-  }
-
-  .sm\:hover\:rounded-l:hover{
-    border-top-left-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem;
-  }
-
-  .sm\:hover\:rounded-t-md:hover{
-    border-top-left-radius: 0.375rem;
-    border-top-right-radius: 0.375rem;
-  }
-
-  .sm\:hover\:rounded-r-md:hover{
-    border-top-right-radius: 0.375rem;
-    border-bottom-right-radius: 0.375rem;
-  }
-
-  .sm\:hover\:rounded-b-md:hover{
-    border-bottom-right-radius: 0.375rem;
-    border-bottom-left-radius: 0.375rem;
-  }
-
-  .sm\:hover\:rounded-l-md:hover{
-    border-top-left-radius: 0.375rem;
-    border-bottom-left-radius: 0.375rem;
-  }
-
-  .sm\:hover\:rounded-t-lg:hover{
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-  }
-
-  .sm\:hover\:rounded-r-lg:hover{
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
-  }
-
-  .sm\:hover\:rounded-b-lg:hover{
-    border-bottom-right-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-  }
-
-  .sm\:hover\:rounded-l-lg:hover{
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-  }
-
-  .sm\:hover\:rounded-t-xl:hover{
-    border-top-left-radius: 0.75rem;
-    border-top-right-radius: 0.75rem;
-  }
-
-  .sm\:hover\:rounded-r-xl:hover{
-    border-top-right-radius: 0.75rem;
-    border-bottom-right-radius: 0.75rem;
-  }
-
-  .sm\:hover\:rounded-b-xl:hover{
-    border-bottom-right-radius: 0.75rem;
-    border-bottom-left-radius: 0.75rem;
-  }
-
-  .sm\:hover\:rounded-l-xl:hover{
-    border-top-left-radius: 0.75rem;
-    border-bottom-left-radius: 0.75rem;
-  }
-
-  .sm\:hover\:rounded-t-2xl:hover{
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-  }
-
-  .sm\:hover\:rounded-r-2xl:hover{
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-  }
-
-  .sm\:hover\:rounded-b-2xl:hover{
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-  }
-
-  .sm\:hover\:rounded-l-2xl:hover{
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-  }
-
-  .sm\:hover\:rounded-t-3xl:hover{
-    border-top-left-radius: 1.5rem;
-    border-top-right-radius: 1.5rem;
-  }
-
-  .sm\:hover\:rounded-r-3xl:hover{
-    border-top-right-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem;
-  }
-
-  .sm\:hover\:rounded-b-3xl:hover{
-    border-bottom-right-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
-  }
-
-  .sm\:hover\:rounded-l-3xl:hover{
-    border-top-left-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
-  }
-
-  .sm\:hover\:rounded-t-full:hover{
-    border-top-left-radius: 9999px;
-    border-top-right-radius: 9999px;
-  }
-
-  .sm\:hover\:rounded-r-full:hover{
-    border-top-right-radius: 9999px;
-    border-bottom-right-radius: 9999px;
-  }
-
-  .sm\:hover\:rounded-b-full:hover{
-    border-bottom-right-radius: 9999px;
-    border-bottom-left-radius: 9999px;
-  }
-
-  .sm\:hover\:rounded-l-full:hover{
-    border-top-left-radius: 9999px;
-    border-bottom-left-radius: 9999px;
-  }
-
-  .sm\:hover\:rounded-tl-none:hover{
-    border-top-left-radius: 0px;
-  }
-
-  .sm\:hover\:rounded-tr-none:hover{
-    border-top-right-radius: 0px;
-  }
-
-  .sm\:hover\:rounded-br-none:hover{
-    border-bottom-right-radius: 0px;
-  }
-
-  .sm\:hover\:rounded-bl-none:hover{
-    border-bottom-left-radius: 0px;
-  }
-
-  .sm\:hover\:rounded-tl-sm:hover{
-    border-top-left-radius: 0.125rem;
-  }
-
-  .sm\:hover\:rounded-tr-sm:hover{
-    border-top-right-radius: 0.125rem;
-  }
-
-  .sm\:hover\:rounded-br-sm:hover{
-    border-bottom-right-radius: 0.125rem;
-  }
-
-  .sm\:hover\:rounded-bl-sm:hover{
-    border-bottom-left-radius: 0.125rem;
-  }
-
-  .sm\:hover\:rounded-tl:hover{
-    border-top-left-radius: 0.25rem;
-  }
-
-  .sm\:hover\:rounded-tr:hover{
-    border-top-right-radius: 0.25rem;
-  }
-
-  .sm\:hover\:rounded-br:hover{
-    border-bottom-right-radius: 0.25rem;
-  }
-
-  .sm\:hover\:rounded-bl:hover{
-    border-bottom-left-radius: 0.25rem;
-  }
-
-  .sm\:hover\:rounded-tl-md:hover{
-    border-top-left-radius: 0.375rem;
-  }
-
-  .sm\:hover\:rounded-tr-md:hover{
-    border-top-right-radius: 0.375rem;
-  }
-
-  .sm\:hover\:rounded-br-md:hover{
-    border-bottom-right-radius: 0.375rem;
-  }
-
-  .sm\:hover\:rounded-bl-md:hover{
-    border-bottom-left-radius: 0.375rem;
-  }
-
-  .sm\:hover\:rounded-tl-lg:hover{
-    border-top-left-radius: 0.5rem;
-  }
-
-  .sm\:hover\:rounded-tr-lg:hover{
-    border-top-right-radius: 0.5rem;
-  }
-
-  .sm\:hover\:rounded-br-lg:hover{
-    border-bottom-right-radius: 0.5rem;
-  }
-
-  .sm\:hover\:rounded-bl-lg:hover{
-    border-bottom-left-radius: 0.5rem;
-  }
-
-  .sm\:hover\:rounded-tl-xl:hover{
-    border-top-left-radius: 0.75rem;
-  }
-
-  .sm\:hover\:rounded-tr-xl:hover{
-    border-top-right-radius: 0.75rem;
-  }
-
-  .sm\:hover\:rounded-br-xl:hover{
-    border-bottom-right-radius: 0.75rem;
-  }
-
-  .sm\:hover\:rounded-bl-xl:hover{
-    border-bottom-left-radius: 0.75rem;
-  }
-
-  .sm\:hover\:rounded-tl-2xl:hover{
-    border-top-left-radius: 1rem;
-  }
-
-  .sm\:hover\:rounded-tr-2xl:hover{
-    border-top-right-radius: 1rem;
-  }
-
-  .sm\:hover\:rounded-br-2xl:hover{
-    border-bottom-right-radius: 1rem;
-  }
-
-  .sm\:hover\:rounded-bl-2xl:hover{
-    border-bottom-left-radius: 1rem;
-  }
-
-  .sm\:hover\:rounded-tl-3xl:hover{
-    border-top-left-radius: 1.5rem;
-  }
-
-  .sm\:hover\:rounded-tr-3xl:hover{
-    border-top-right-radius: 1.5rem;
-  }
-
-  .sm\:hover\:rounded-br-3xl:hover{
-    border-bottom-right-radius: 1.5rem;
-  }
-
-  .sm\:hover\:rounded-bl-3xl:hover{
-    border-bottom-left-radius: 1.5rem;
-  }
-
-  .sm\:hover\:rounded-tl-full:hover{
-    border-top-left-radius: 9999px;
-  }
-
-  .sm\:hover\:rounded-tr-full:hover{
-    border-top-right-radius: 9999px;
-  }
-
-  .sm\:hover\:rounded-br-full:hover{
-    border-bottom-right-radius: 9999px;
-  }
-
-  .sm\:hover\:rounded-bl-full:hover{
-    border-bottom-left-radius: 9999px;
-  }
-
   .sm\:border-solid{
     border-style: solid;
   }
@@ -45225,6 +44593,46 @@ video {
     max-height: 100vh;
   }
 
+  .sm\:max-h-xs{
+    max-height: 20rem;
+  }
+
+  .sm\:max-h-sm{
+    max-height: 24rem;
+  }
+
+  .sm\:max-h-md{
+    max-height: 28rem;
+  }
+
+  .sm\:max-h-lg{
+    max-height: 32rem;
+  }
+
+  .sm\:max-h-xl{
+    max-height: 36rem;
+  }
+
+  .sm\:max-h-2xl{
+    max-height: 42rem;
+  }
+
+  .sm\:max-h-3xl{
+    max-height: 48rem;
+  }
+
+  .sm\:max-h-4xl{
+    max-height: 56rem;
+  }
+
+  .sm\:max-h-5xl{
+    max-height: 64rem;
+  }
+
+  .sm\:max-h-6xl{
+    max-height: 72rem;
+  }
+
   .sm\:max-w-0{
     max-width: 0rem;
   }
@@ -45327,6 +44735,46 @@ video {
 
   .sm\:min-h-screen{
     min-height: 100vh;
+  }
+
+  .sm\:min-h-xs{
+    min-height: 20rem;
+  }
+
+  .sm\:min-h-sm{
+    min-height: 24rem;
+  }
+
+  .sm\:min-h-md{
+    min-height: 28rem;
+  }
+
+  .sm\:min-h-lg{
+    min-height: 32rem;
+  }
+
+  .sm\:min-h-xl{
+    min-height: 36rem;
+  }
+
+  .sm\:min-h-2xl{
+    min-height: 42rem;
+  }
+
+  .sm\:min-h-3xl{
+    min-height: 48rem;
+  }
+
+  .sm\:min-h-4xl{
+    min-height: 56rem;
+  }
+
+  .sm\:min-h-5xl{
+    min-height: 64rem;
+  }
+
+  .sm\:min-h-6xl{
+    min-height: 72rem;
   }
 
   .sm\:min-w-0{
@@ -66107,6 +65555,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .md\:bg-todo{
+    background-image: url('assets/todo.svg');
+  }
+
   .md\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -72513,366 +71965,6 @@ video {
     border-bottom-left-radius: 9999px;
   }
 
-  .md\:hover\:rounded-none:hover{
-    border-radius: 0px;
-  }
-
-  .md\:hover\:rounded-sm:hover{
-    border-radius: 0.125rem;
-  }
-
-  .md\:hover\:rounded:hover{
-    border-radius: 0.25rem;
-  }
-
-  .md\:hover\:rounded-md:hover{
-    border-radius: 0.375rem;
-  }
-
-  .md\:hover\:rounded-lg:hover{
-    border-radius: 0.5rem;
-  }
-
-  .md\:hover\:rounded-xl:hover{
-    border-radius: 0.75rem;
-  }
-
-  .md\:hover\:rounded-2xl:hover{
-    border-radius: 1rem;
-  }
-
-  .md\:hover\:rounded-3xl:hover{
-    border-radius: 1.5rem;
-  }
-
-  .md\:hover\:rounded-full:hover{
-    border-radius: 9999px;
-  }
-
-  .md\:hover\:rounded-t-none:hover{
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-  }
-
-  .md\:hover\:rounded-r-none:hover{
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-  }
-
-  .md\:hover\:rounded-b-none:hover{
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-
-  .md\:hover\:rounded-l-none:hover{
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-
-  .md\:hover\:rounded-t-sm:hover{
-    border-top-left-radius: 0.125rem;
-    border-top-right-radius: 0.125rem;
-  }
-
-  .md\:hover\:rounded-r-sm:hover{
-    border-top-right-radius: 0.125rem;
-    border-bottom-right-radius: 0.125rem;
-  }
-
-  .md\:hover\:rounded-b-sm:hover{
-    border-bottom-right-radius: 0.125rem;
-    border-bottom-left-radius: 0.125rem;
-  }
-
-  .md\:hover\:rounded-l-sm:hover{
-    border-top-left-radius: 0.125rem;
-    border-bottom-left-radius: 0.125rem;
-  }
-
-  .md\:hover\:rounded-t:hover{
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-  }
-
-  .md\:hover\:rounded-r:hover{
-    border-top-right-radius: 0.25rem;
-    border-bottom-right-radius: 0.25rem;
-  }
-
-  .md\:hover\:rounded-b:hover{
-    border-bottom-right-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem;
-  }
-
-  .md\:hover\:rounded-l:hover{
-    border-top-left-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem;
-  }
-
-  .md\:hover\:rounded-t-md:hover{
-    border-top-left-radius: 0.375rem;
-    border-top-right-radius: 0.375rem;
-  }
-
-  .md\:hover\:rounded-r-md:hover{
-    border-top-right-radius: 0.375rem;
-    border-bottom-right-radius: 0.375rem;
-  }
-
-  .md\:hover\:rounded-b-md:hover{
-    border-bottom-right-radius: 0.375rem;
-    border-bottom-left-radius: 0.375rem;
-  }
-
-  .md\:hover\:rounded-l-md:hover{
-    border-top-left-radius: 0.375rem;
-    border-bottom-left-radius: 0.375rem;
-  }
-
-  .md\:hover\:rounded-t-lg:hover{
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-  }
-
-  .md\:hover\:rounded-r-lg:hover{
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
-  }
-
-  .md\:hover\:rounded-b-lg:hover{
-    border-bottom-right-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-  }
-
-  .md\:hover\:rounded-l-lg:hover{
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-  }
-
-  .md\:hover\:rounded-t-xl:hover{
-    border-top-left-radius: 0.75rem;
-    border-top-right-radius: 0.75rem;
-  }
-
-  .md\:hover\:rounded-r-xl:hover{
-    border-top-right-radius: 0.75rem;
-    border-bottom-right-radius: 0.75rem;
-  }
-
-  .md\:hover\:rounded-b-xl:hover{
-    border-bottom-right-radius: 0.75rem;
-    border-bottom-left-radius: 0.75rem;
-  }
-
-  .md\:hover\:rounded-l-xl:hover{
-    border-top-left-radius: 0.75rem;
-    border-bottom-left-radius: 0.75rem;
-  }
-
-  .md\:hover\:rounded-t-2xl:hover{
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-  }
-
-  .md\:hover\:rounded-r-2xl:hover{
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-  }
-
-  .md\:hover\:rounded-b-2xl:hover{
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-  }
-
-  .md\:hover\:rounded-l-2xl:hover{
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-  }
-
-  .md\:hover\:rounded-t-3xl:hover{
-    border-top-left-radius: 1.5rem;
-    border-top-right-radius: 1.5rem;
-  }
-
-  .md\:hover\:rounded-r-3xl:hover{
-    border-top-right-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem;
-  }
-
-  .md\:hover\:rounded-b-3xl:hover{
-    border-bottom-right-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
-  }
-
-  .md\:hover\:rounded-l-3xl:hover{
-    border-top-left-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
-  }
-
-  .md\:hover\:rounded-t-full:hover{
-    border-top-left-radius: 9999px;
-    border-top-right-radius: 9999px;
-  }
-
-  .md\:hover\:rounded-r-full:hover{
-    border-top-right-radius: 9999px;
-    border-bottom-right-radius: 9999px;
-  }
-
-  .md\:hover\:rounded-b-full:hover{
-    border-bottom-right-radius: 9999px;
-    border-bottom-left-radius: 9999px;
-  }
-
-  .md\:hover\:rounded-l-full:hover{
-    border-top-left-radius: 9999px;
-    border-bottom-left-radius: 9999px;
-  }
-
-  .md\:hover\:rounded-tl-none:hover{
-    border-top-left-radius: 0px;
-  }
-
-  .md\:hover\:rounded-tr-none:hover{
-    border-top-right-radius: 0px;
-  }
-
-  .md\:hover\:rounded-br-none:hover{
-    border-bottom-right-radius: 0px;
-  }
-
-  .md\:hover\:rounded-bl-none:hover{
-    border-bottom-left-radius: 0px;
-  }
-
-  .md\:hover\:rounded-tl-sm:hover{
-    border-top-left-radius: 0.125rem;
-  }
-
-  .md\:hover\:rounded-tr-sm:hover{
-    border-top-right-radius: 0.125rem;
-  }
-
-  .md\:hover\:rounded-br-sm:hover{
-    border-bottom-right-radius: 0.125rem;
-  }
-
-  .md\:hover\:rounded-bl-sm:hover{
-    border-bottom-left-radius: 0.125rem;
-  }
-
-  .md\:hover\:rounded-tl:hover{
-    border-top-left-radius: 0.25rem;
-  }
-
-  .md\:hover\:rounded-tr:hover{
-    border-top-right-radius: 0.25rem;
-  }
-
-  .md\:hover\:rounded-br:hover{
-    border-bottom-right-radius: 0.25rem;
-  }
-
-  .md\:hover\:rounded-bl:hover{
-    border-bottom-left-radius: 0.25rem;
-  }
-
-  .md\:hover\:rounded-tl-md:hover{
-    border-top-left-radius: 0.375rem;
-  }
-
-  .md\:hover\:rounded-tr-md:hover{
-    border-top-right-radius: 0.375rem;
-  }
-
-  .md\:hover\:rounded-br-md:hover{
-    border-bottom-right-radius: 0.375rem;
-  }
-
-  .md\:hover\:rounded-bl-md:hover{
-    border-bottom-left-radius: 0.375rem;
-  }
-
-  .md\:hover\:rounded-tl-lg:hover{
-    border-top-left-radius: 0.5rem;
-  }
-
-  .md\:hover\:rounded-tr-lg:hover{
-    border-top-right-radius: 0.5rem;
-  }
-
-  .md\:hover\:rounded-br-lg:hover{
-    border-bottom-right-radius: 0.5rem;
-  }
-
-  .md\:hover\:rounded-bl-lg:hover{
-    border-bottom-left-radius: 0.5rem;
-  }
-
-  .md\:hover\:rounded-tl-xl:hover{
-    border-top-left-radius: 0.75rem;
-  }
-
-  .md\:hover\:rounded-tr-xl:hover{
-    border-top-right-radius: 0.75rem;
-  }
-
-  .md\:hover\:rounded-br-xl:hover{
-    border-bottom-right-radius: 0.75rem;
-  }
-
-  .md\:hover\:rounded-bl-xl:hover{
-    border-bottom-left-radius: 0.75rem;
-  }
-
-  .md\:hover\:rounded-tl-2xl:hover{
-    border-top-left-radius: 1rem;
-  }
-
-  .md\:hover\:rounded-tr-2xl:hover{
-    border-top-right-radius: 1rem;
-  }
-
-  .md\:hover\:rounded-br-2xl:hover{
-    border-bottom-right-radius: 1rem;
-  }
-
-  .md\:hover\:rounded-bl-2xl:hover{
-    border-bottom-left-radius: 1rem;
-  }
-
-  .md\:hover\:rounded-tl-3xl:hover{
-    border-top-left-radius: 1.5rem;
-  }
-
-  .md\:hover\:rounded-tr-3xl:hover{
-    border-top-right-radius: 1.5rem;
-  }
-
-  .md\:hover\:rounded-br-3xl:hover{
-    border-bottom-right-radius: 1.5rem;
-  }
-
-  .md\:hover\:rounded-bl-3xl:hover{
-    border-bottom-left-radius: 1.5rem;
-  }
-
-  .md\:hover\:rounded-tl-full:hover{
-    border-top-left-radius: 9999px;
-  }
-
-  .md\:hover\:rounded-tr-full:hover{
-    border-top-right-radius: 9999px;
-  }
-
-  .md\:hover\:rounded-br-full:hover{
-    border-bottom-right-radius: 9999px;
-  }
-
-  .md\:hover\:rounded-bl-full:hover{
-    border-bottom-left-radius: 9999px;
-  }
-
   .md\:border-solid{
     border-style: solid;
   }
@@ -76124,6 +75216,46 @@ video {
     max-height: 100vh;
   }
 
+  .md\:max-h-xs{
+    max-height: 20rem;
+  }
+
+  .md\:max-h-sm{
+    max-height: 24rem;
+  }
+
+  .md\:max-h-md{
+    max-height: 28rem;
+  }
+
+  .md\:max-h-lg{
+    max-height: 32rem;
+  }
+
+  .md\:max-h-xl{
+    max-height: 36rem;
+  }
+
+  .md\:max-h-2xl{
+    max-height: 42rem;
+  }
+
+  .md\:max-h-3xl{
+    max-height: 48rem;
+  }
+
+  .md\:max-h-4xl{
+    max-height: 56rem;
+  }
+
+  .md\:max-h-5xl{
+    max-height: 64rem;
+  }
+
+  .md\:max-h-6xl{
+    max-height: 72rem;
+  }
+
   .md\:max-w-0{
     max-width: 0rem;
   }
@@ -76226,6 +75358,46 @@ video {
 
   .md\:min-h-screen{
     min-height: 100vh;
+  }
+
+  .md\:min-h-xs{
+    min-height: 20rem;
+  }
+
+  .md\:min-h-sm{
+    min-height: 24rem;
+  }
+
+  .md\:min-h-md{
+    min-height: 28rem;
+  }
+
+  .md\:min-h-lg{
+    min-height: 32rem;
+  }
+
+  .md\:min-h-xl{
+    min-height: 36rem;
+  }
+
+  .md\:min-h-2xl{
+    min-height: 42rem;
+  }
+
+  .md\:min-h-3xl{
+    min-height: 48rem;
+  }
+
+  .md\:min-h-4xl{
+    min-height: 56rem;
+  }
+
+  .md\:min-h-5xl{
+    min-height: 64rem;
+  }
+
+  .md\:min-h-6xl{
+    min-height: 72rem;
   }
 
   .md\:min-w-0{
@@ -97006,6 +96178,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-todo{
+    background-image: url('assets/todo.svg');
+  }
+
   .lg\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -103412,366 +102588,6 @@ video {
     border-bottom-left-radius: 9999px;
   }
 
-  .lg\:hover\:rounded-none:hover{
-    border-radius: 0px;
-  }
-
-  .lg\:hover\:rounded-sm:hover{
-    border-radius: 0.125rem;
-  }
-
-  .lg\:hover\:rounded:hover{
-    border-radius: 0.25rem;
-  }
-
-  .lg\:hover\:rounded-md:hover{
-    border-radius: 0.375rem;
-  }
-
-  .lg\:hover\:rounded-lg:hover{
-    border-radius: 0.5rem;
-  }
-
-  .lg\:hover\:rounded-xl:hover{
-    border-radius: 0.75rem;
-  }
-
-  .lg\:hover\:rounded-2xl:hover{
-    border-radius: 1rem;
-  }
-
-  .lg\:hover\:rounded-3xl:hover{
-    border-radius: 1.5rem;
-  }
-
-  .lg\:hover\:rounded-full:hover{
-    border-radius: 9999px;
-  }
-
-  .lg\:hover\:rounded-t-none:hover{
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-  }
-
-  .lg\:hover\:rounded-r-none:hover{
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-  }
-
-  .lg\:hover\:rounded-b-none:hover{
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-
-  .lg\:hover\:rounded-l-none:hover{
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-
-  .lg\:hover\:rounded-t-sm:hover{
-    border-top-left-radius: 0.125rem;
-    border-top-right-radius: 0.125rem;
-  }
-
-  .lg\:hover\:rounded-r-sm:hover{
-    border-top-right-radius: 0.125rem;
-    border-bottom-right-radius: 0.125rem;
-  }
-
-  .lg\:hover\:rounded-b-sm:hover{
-    border-bottom-right-radius: 0.125rem;
-    border-bottom-left-radius: 0.125rem;
-  }
-
-  .lg\:hover\:rounded-l-sm:hover{
-    border-top-left-radius: 0.125rem;
-    border-bottom-left-radius: 0.125rem;
-  }
-
-  .lg\:hover\:rounded-t:hover{
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-  }
-
-  .lg\:hover\:rounded-r:hover{
-    border-top-right-radius: 0.25rem;
-    border-bottom-right-radius: 0.25rem;
-  }
-
-  .lg\:hover\:rounded-b:hover{
-    border-bottom-right-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem;
-  }
-
-  .lg\:hover\:rounded-l:hover{
-    border-top-left-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem;
-  }
-
-  .lg\:hover\:rounded-t-md:hover{
-    border-top-left-radius: 0.375rem;
-    border-top-right-radius: 0.375rem;
-  }
-
-  .lg\:hover\:rounded-r-md:hover{
-    border-top-right-radius: 0.375rem;
-    border-bottom-right-radius: 0.375rem;
-  }
-
-  .lg\:hover\:rounded-b-md:hover{
-    border-bottom-right-radius: 0.375rem;
-    border-bottom-left-radius: 0.375rem;
-  }
-
-  .lg\:hover\:rounded-l-md:hover{
-    border-top-left-radius: 0.375rem;
-    border-bottom-left-radius: 0.375rem;
-  }
-
-  .lg\:hover\:rounded-t-lg:hover{
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-  }
-
-  .lg\:hover\:rounded-r-lg:hover{
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
-  }
-
-  .lg\:hover\:rounded-b-lg:hover{
-    border-bottom-right-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-  }
-
-  .lg\:hover\:rounded-l-lg:hover{
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-  }
-
-  .lg\:hover\:rounded-t-xl:hover{
-    border-top-left-radius: 0.75rem;
-    border-top-right-radius: 0.75rem;
-  }
-
-  .lg\:hover\:rounded-r-xl:hover{
-    border-top-right-radius: 0.75rem;
-    border-bottom-right-radius: 0.75rem;
-  }
-
-  .lg\:hover\:rounded-b-xl:hover{
-    border-bottom-right-radius: 0.75rem;
-    border-bottom-left-radius: 0.75rem;
-  }
-
-  .lg\:hover\:rounded-l-xl:hover{
-    border-top-left-radius: 0.75rem;
-    border-bottom-left-radius: 0.75rem;
-  }
-
-  .lg\:hover\:rounded-t-2xl:hover{
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-  }
-
-  .lg\:hover\:rounded-r-2xl:hover{
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-  }
-
-  .lg\:hover\:rounded-b-2xl:hover{
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-  }
-
-  .lg\:hover\:rounded-l-2xl:hover{
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-  }
-
-  .lg\:hover\:rounded-t-3xl:hover{
-    border-top-left-radius: 1.5rem;
-    border-top-right-radius: 1.5rem;
-  }
-
-  .lg\:hover\:rounded-r-3xl:hover{
-    border-top-right-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem;
-  }
-
-  .lg\:hover\:rounded-b-3xl:hover{
-    border-bottom-right-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
-  }
-
-  .lg\:hover\:rounded-l-3xl:hover{
-    border-top-left-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
-  }
-
-  .lg\:hover\:rounded-t-full:hover{
-    border-top-left-radius: 9999px;
-    border-top-right-radius: 9999px;
-  }
-
-  .lg\:hover\:rounded-r-full:hover{
-    border-top-right-radius: 9999px;
-    border-bottom-right-radius: 9999px;
-  }
-
-  .lg\:hover\:rounded-b-full:hover{
-    border-bottom-right-radius: 9999px;
-    border-bottom-left-radius: 9999px;
-  }
-
-  .lg\:hover\:rounded-l-full:hover{
-    border-top-left-radius: 9999px;
-    border-bottom-left-radius: 9999px;
-  }
-
-  .lg\:hover\:rounded-tl-none:hover{
-    border-top-left-radius: 0px;
-  }
-
-  .lg\:hover\:rounded-tr-none:hover{
-    border-top-right-radius: 0px;
-  }
-
-  .lg\:hover\:rounded-br-none:hover{
-    border-bottom-right-radius: 0px;
-  }
-
-  .lg\:hover\:rounded-bl-none:hover{
-    border-bottom-left-radius: 0px;
-  }
-
-  .lg\:hover\:rounded-tl-sm:hover{
-    border-top-left-radius: 0.125rem;
-  }
-
-  .lg\:hover\:rounded-tr-sm:hover{
-    border-top-right-radius: 0.125rem;
-  }
-
-  .lg\:hover\:rounded-br-sm:hover{
-    border-bottom-right-radius: 0.125rem;
-  }
-
-  .lg\:hover\:rounded-bl-sm:hover{
-    border-bottom-left-radius: 0.125rem;
-  }
-
-  .lg\:hover\:rounded-tl:hover{
-    border-top-left-radius: 0.25rem;
-  }
-
-  .lg\:hover\:rounded-tr:hover{
-    border-top-right-radius: 0.25rem;
-  }
-
-  .lg\:hover\:rounded-br:hover{
-    border-bottom-right-radius: 0.25rem;
-  }
-
-  .lg\:hover\:rounded-bl:hover{
-    border-bottom-left-radius: 0.25rem;
-  }
-
-  .lg\:hover\:rounded-tl-md:hover{
-    border-top-left-radius: 0.375rem;
-  }
-
-  .lg\:hover\:rounded-tr-md:hover{
-    border-top-right-radius: 0.375rem;
-  }
-
-  .lg\:hover\:rounded-br-md:hover{
-    border-bottom-right-radius: 0.375rem;
-  }
-
-  .lg\:hover\:rounded-bl-md:hover{
-    border-bottom-left-radius: 0.375rem;
-  }
-
-  .lg\:hover\:rounded-tl-lg:hover{
-    border-top-left-radius: 0.5rem;
-  }
-
-  .lg\:hover\:rounded-tr-lg:hover{
-    border-top-right-radius: 0.5rem;
-  }
-
-  .lg\:hover\:rounded-br-lg:hover{
-    border-bottom-right-radius: 0.5rem;
-  }
-
-  .lg\:hover\:rounded-bl-lg:hover{
-    border-bottom-left-radius: 0.5rem;
-  }
-
-  .lg\:hover\:rounded-tl-xl:hover{
-    border-top-left-radius: 0.75rem;
-  }
-
-  .lg\:hover\:rounded-tr-xl:hover{
-    border-top-right-radius: 0.75rem;
-  }
-
-  .lg\:hover\:rounded-br-xl:hover{
-    border-bottom-right-radius: 0.75rem;
-  }
-
-  .lg\:hover\:rounded-bl-xl:hover{
-    border-bottom-left-radius: 0.75rem;
-  }
-
-  .lg\:hover\:rounded-tl-2xl:hover{
-    border-top-left-radius: 1rem;
-  }
-
-  .lg\:hover\:rounded-tr-2xl:hover{
-    border-top-right-radius: 1rem;
-  }
-
-  .lg\:hover\:rounded-br-2xl:hover{
-    border-bottom-right-radius: 1rem;
-  }
-
-  .lg\:hover\:rounded-bl-2xl:hover{
-    border-bottom-left-radius: 1rem;
-  }
-
-  .lg\:hover\:rounded-tl-3xl:hover{
-    border-top-left-radius: 1.5rem;
-  }
-
-  .lg\:hover\:rounded-tr-3xl:hover{
-    border-top-right-radius: 1.5rem;
-  }
-
-  .lg\:hover\:rounded-br-3xl:hover{
-    border-bottom-right-radius: 1.5rem;
-  }
-
-  .lg\:hover\:rounded-bl-3xl:hover{
-    border-bottom-left-radius: 1.5rem;
-  }
-
-  .lg\:hover\:rounded-tl-full:hover{
-    border-top-left-radius: 9999px;
-  }
-
-  .lg\:hover\:rounded-tr-full:hover{
-    border-top-right-radius: 9999px;
-  }
-
-  .lg\:hover\:rounded-br-full:hover{
-    border-bottom-right-radius: 9999px;
-  }
-
-  .lg\:hover\:rounded-bl-full:hover{
-    border-bottom-left-radius: 9999px;
-  }
-
   .lg\:border-solid{
     border-style: solid;
   }
@@ -107023,6 +105839,46 @@ video {
     max-height: 100vh;
   }
 
+  .lg\:max-h-xs{
+    max-height: 20rem;
+  }
+
+  .lg\:max-h-sm{
+    max-height: 24rem;
+  }
+
+  .lg\:max-h-md{
+    max-height: 28rem;
+  }
+
+  .lg\:max-h-lg{
+    max-height: 32rem;
+  }
+
+  .lg\:max-h-xl{
+    max-height: 36rem;
+  }
+
+  .lg\:max-h-2xl{
+    max-height: 42rem;
+  }
+
+  .lg\:max-h-3xl{
+    max-height: 48rem;
+  }
+
+  .lg\:max-h-4xl{
+    max-height: 56rem;
+  }
+
+  .lg\:max-h-5xl{
+    max-height: 64rem;
+  }
+
+  .lg\:max-h-6xl{
+    max-height: 72rem;
+  }
+
   .lg\:max-w-0{
     max-width: 0rem;
   }
@@ -107125,6 +105981,46 @@ video {
 
   .lg\:min-h-screen{
     min-height: 100vh;
+  }
+
+  .lg\:min-h-xs{
+    min-height: 20rem;
+  }
+
+  .lg\:min-h-sm{
+    min-height: 24rem;
+  }
+
+  .lg\:min-h-md{
+    min-height: 28rem;
+  }
+
+  .lg\:min-h-lg{
+    min-height: 32rem;
+  }
+
+  .lg\:min-h-xl{
+    min-height: 36rem;
+  }
+
+  .lg\:min-h-2xl{
+    min-height: 42rem;
+  }
+
+  .lg\:min-h-3xl{
+    min-height: 48rem;
+  }
+
+  .lg\:min-h-4xl{
+    min-height: 56rem;
+  }
+
+  .lg\:min-h-5xl{
+    min-height: 64rem;
+  }
+
+  .lg\:min-h-6xl{
+    min-height: 72rem;
   }
 
   .lg\:min-w-0{
@@ -127905,6 +126801,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-todo{
+    background-image: url('assets/todo.svg');
+  }
+
   .xl\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -134311,366 +133211,6 @@ video {
     border-bottom-left-radius: 9999px;
   }
 
-  .xl\:hover\:rounded-none:hover{
-    border-radius: 0px;
-  }
-
-  .xl\:hover\:rounded-sm:hover{
-    border-radius: 0.125rem;
-  }
-
-  .xl\:hover\:rounded:hover{
-    border-radius: 0.25rem;
-  }
-
-  .xl\:hover\:rounded-md:hover{
-    border-radius: 0.375rem;
-  }
-
-  .xl\:hover\:rounded-lg:hover{
-    border-radius: 0.5rem;
-  }
-
-  .xl\:hover\:rounded-xl:hover{
-    border-radius: 0.75rem;
-  }
-
-  .xl\:hover\:rounded-2xl:hover{
-    border-radius: 1rem;
-  }
-
-  .xl\:hover\:rounded-3xl:hover{
-    border-radius: 1.5rem;
-  }
-
-  .xl\:hover\:rounded-full:hover{
-    border-radius: 9999px;
-  }
-
-  .xl\:hover\:rounded-t-none:hover{
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-  }
-
-  .xl\:hover\:rounded-r-none:hover{
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-  }
-
-  .xl\:hover\:rounded-b-none:hover{
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-
-  .xl\:hover\:rounded-l-none:hover{
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-
-  .xl\:hover\:rounded-t-sm:hover{
-    border-top-left-radius: 0.125rem;
-    border-top-right-radius: 0.125rem;
-  }
-
-  .xl\:hover\:rounded-r-sm:hover{
-    border-top-right-radius: 0.125rem;
-    border-bottom-right-radius: 0.125rem;
-  }
-
-  .xl\:hover\:rounded-b-sm:hover{
-    border-bottom-right-radius: 0.125rem;
-    border-bottom-left-radius: 0.125rem;
-  }
-
-  .xl\:hover\:rounded-l-sm:hover{
-    border-top-left-radius: 0.125rem;
-    border-bottom-left-radius: 0.125rem;
-  }
-
-  .xl\:hover\:rounded-t:hover{
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-  }
-
-  .xl\:hover\:rounded-r:hover{
-    border-top-right-radius: 0.25rem;
-    border-bottom-right-radius: 0.25rem;
-  }
-
-  .xl\:hover\:rounded-b:hover{
-    border-bottom-right-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem;
-  }
-
-  .xl\:hover\:rounded-l:hover{
-    border-top-left-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem;
-  }
-
-  .xl\:hover\:rounded-t-md:hover{
-    border-top-left-radius: 0.375rem;
-    border-top-right-radius: 0.375rem;
-  }
-
-  .xl\:hover\:rounded-r-md:hover{
-    border-top-right-radius: 0.375rem;
-    border-bottom-right-radius: 0.375rem;
-  }
-
-  .xl\:hover\:rounded-b-md:hover{
-    border-bottom-right-radius: 0.375rem;
-    border-bottom-left-radius: 0.375rem;
-  }
-
-  .xl\:hover\:rounded-l-md:hover{
-    border-top-left-radius: 0.375rem;
-    border-bottom-left-radius: 0.375rem;
-  }
-
-  .xl\:hover\:rounded-t-lg:hover{
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-  }
-
-  .xl\:hover\:rounded-r-lg:hover{
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
-  }
-
-  .xl\:hover\:rounded-b-lg:hover{
-    border-bottom-right-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-  }
-
-  .xl\:hover\:rounded-l-lg:hover{
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-  }
-
-  .xl\:hover\:rounded-t-xl:hover{
-    border-top-left-radius: 0.75rem;
-    border-top-right-radius: 0.75rem;
-  }
-
-  .xl\:hover\:rounded-r-xl:hover{
-    border-top-right-radius: 0.75rem;
-    border-bottom-right-radius: 0.75rem;
-  }
-
-  .xl\:hover\:rounded-b-xl:hover{
-    border-bottom-right-radius: 0.75rem;
-    border-bottom-left-radius: 0.75rem;
-  }
-
-  .xl\:hover\:rounded-l-xl:hover{
-    border-top-left-radius: 0.75rem;
-    border-bottom-left-radius: 0.75rem;
-  }
-
-  .xl\:hover\:rounded-t-2xl:hover{
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-  }
-
-  .xl\:hover\:rounded-r-2xl:hover{
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-  }
-
-  .xl\:hover\:rounded-b-2xl:hover{
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-  }
-
-  .xl\:hover\:rounded-l-2xl:hover{
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-  }
-
-  .xl\:hover\:rounded-t-3xl:hover{
-    border-top-left-radius: 1.5rem;
-    border-top-right-radius: 1.5rem;
-  }
-
-  .xl\:hover\:rounded-r-3xl:hover{
-    border-top-right-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem;
-  }
-
-  .xl\:hover\:rounded-b-3xl:hover{
-    border-bottom-right-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
-  }
-
-  .xl\:hover\:rounded-l-3xl:hover{
-    border-top-left-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
-  }
-
-  .xl\:hover\:rounded-t-full:hover{
-    border-top-left-radius: 9999px;
-    border-top-right-radius: 9999px;
-  }
-
-  .xl\:hover\:rounded-r-full:hover{
-    border-top-right-radius: 9999px;
-    border-bottom-right-radius: 9999px;
-  }
-
-  .xl\:hover\:rounded-b-full:hover{
-    border-bottom-right-radius: 9999px;
-    border-bottom-left-radius: 9999px;
-  }
-
-  .xl\:hover\:rounded-l-full:hover{
-    border-top-left-radius: 9999px;
-    border-bottom-left-radius: 9999px;
-  }
-
-  .xl\:hover\:rounded-tl-none:hover{
-    border-top-left-radius: 0px;
-  }
-
-  .xl\:hover\:rounded-tr-none:hover{
-    border-top-right-radius: 0px;
-  }
-
-  .xl\:hover\:rounded-br-none:hover{
-    border-bottom-right-radius: 0px;
-  }
-
-  .xl\:hover\:rounded-bl-none:hover{
-    border-bottom-left-radius: 0px;
-  }
-
-  .xl\:hover\:rounded-tl-sm:hover{
-    border-top-left-radius: 0.125rem;
-  }
-
-  .xl\:hover\:rounded-tr-sm:hover{
-    border-top-right-radius: 0.125rem;
-  }
-
-  .xl\:hover\:rounded-br-sm:hover{
-    border-bottom-right-radius: 0.125rem;
-  }
-
-  .xl\:hover\:rounded-bl-sm:hover{
-    border-bottom-left-radius: 0.125rem;
-  }
-
-  .xl\:hover\:rounded-tl:hover{
-    border-top-left-radius: 0.25rem;
-  }
-
-  .xl\:hover\:rounded-tr:hover{
-    border-top-right-radius: 0.25rem;
-  }
-
-  .xl\:hover\:rounded-br:hover{
-    border-bottom-right-radius: 0.25rem;
-  }
-
-  .xl\:hover\:rounded-bl:hover{
-    border-bottom-left-radius: 0.25rem;
-  }
-
-  .xl\:hover\:rounded-tl-md:hover{
-    border-top-left-radius: 0.375rem;
-  }
-
-  .xl\:hover\:rounded-tr-md:hover{
-    border-top-right-radius: 0.375rem;
-  }
-
-  .xl\:hover\:rounded-br-md:hover{
-    border-bottom-right-radius: 0.375rem;
-  }
-
-  .xl\:hover\:rounded-bl-md:hover{
-    border-bottom-left-radius: 0.375rem;
-  }
-
-  .xl\:hover\:rounded-tl-lg:hover{
-    border-top-left-radius: 0.5rem;
-  }
-
-  .xl\:hover\:rounded-tr-lg:hover{
-    border-top-right-radius: 0.5rem;
-  }
-
-  .xl\:hover\:rounded-br-lg:hover{
-    border-bottom-right-radius: 0.5rem;
-  }
-
-  .xl\:hover\:rounded-bl-lg:hover{
-    border-bottom-left-radius: 0.5rem;
-  }
-
-  .xl\:hover\:rounded-tl-xl:hover{
-    border-top-left-radius: 0.75rem;
-  }
-
-  .xl\:hover\:rounded-tr-xl:hover{
-    border-top-right-radius: 0.75rem;
-  }
-
-  .xl\:hover\:rounded-br-xl:hover{
-    border-bottom-right-radius: 0.75rem;
-  }
-
-  .xl\:hover\:rounded-bl-xl:hover{
-    border-bottom-left-radius: 0.75rem;
-  }
-
-  .xl\:hover\:rounded-tl-2xl:hover{
-    border-top-left-radius: 1rem;
-  }
-
-  .xl\:hover\:rounded-tr-2xl:hover{
-    border-top-right-radius: 1rem;
-  }
-
-  .xl\:hover\:rounded-br-2xl:hover{
-    border-bottom-right-radius: 1rem;
-  }
-
-  .xl\:hover\:rounded-bl-2xl:hover{
-    border-bottom-left-radius: 1rem;
-  }
-
-  .xl\:hover\:rounded-tl-3xl:hover{
-    border-top-left-radius: 1.5rem;
-  }
-
-  .xl\:hover\:rounded-tr-3xl:hover{
-    border-top-right-radius: 1.5rem;
-  }
-
-  .xl\:hover\:rounded-br-3xl:hover{
-    border-bottom-right-radius: 1.5rem;
-  }
-
-  .xl\:hover\:rounded-bl-3xl:hover{
-    border-bottom-left-radius: 1.5rem;
-  }
-
-  .xl\:hover\:rounded-tl-full:hover{
-    border-top-left-radius: 9999px;
-  }
-
-  .xl\:hover\:rounded-tr-full:hover{
-    border-top-right-radius: 9999px;
-  }
-
-  .xl\:hover\:rounded-br-full:hover{
-    border-bottom-right-radius: 9999px;
-  }
-
-  .xl\:hover\:rounded-bl-full:hover{
-    border-bottom-left-radius: 9999px;
-  }
-
   .xl\:border-solid{
     border-style: solid;
   }
@@ -137922,6 +136462,46 @@ video {
     max-height: 100vh;
   }
 
+  .xl\:max-h-xs{
+    max-height: 20rem;
+  }
+
+  .xl\:max-h-sm{
+    max-height: 24rem;
+  }
+
+  .xl\:max-h-md{
+    max-height: 28rem;
+  }
+
+  .xl\:max-h-lg{
+    max-height: 32rem;
+  }
+
+  .xl\:max-h-xl{
+    max-height: 36rem;
+  }
+
+  .xl\:max-h-2xl{
+    max-height: 42rem;
+  }
+
+  .xl\:max-h-3xl{
+    max-height: 48rem;
+  }
+
+  .xl\:max-h-4xl{
+    max-height: 56rem;
+  }
+
+  .xl\:max-h-5xl{
+    max-height: 64rem;
+  }
+
+  .xl\:max-h-6xl{
+    max-height: 72rem;
+  }
+
   .xl\:max-w-0{
     max-width: 0rem;
   }
@@ -138024,6 +136604,46 @@ video {
 
   .xl\:min-h-screen{
     min-height: 100vh;
+  }
+
+  .xl\:min-h-xs{
+    min-height: 20rem;
+  }
+
+  .xl\:min-h-sm{
+    min-height: 24rem;
+  }
+
+  .xl\:min-h-md{
+    min-height: 28rem;
+  }
+
+  .xl\:min-h-lg{
+    min-height: 32rem;
+  }
+
+  .xl\:min-h-xl{
+    min-height: 36rem;
+  }
+
+  .xl\:min-h-2xl{
+    min-height: 42rem;
+  }
+
+  .xl\:min-h-3xl{
+    min-height: 48rem;
+  }
+
+  .xl\:min-h-4xl{
+    min-height: 56rem;
+  }
+
+  .xl\:min-h-5xl{
+    min-height: 64rem;
+  }
+
+  .xl\:min-h-6xl{
+    min-height: 72rem;
   }
 
   .xl\:min-w-0{
@@ -158804,6 +157424,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .\32xl\:bg-todo{
+    background-image: url('assets/todo.svg');
+  }
+
   .\32xl\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -165210,366 +163834,6 @@ video {
     border-bottom-left-radius: 9999px;
   }
 
-  .\32xl\:hover\:rounded-none:hover{
-    border-radius: 0px;
-  }
-
-  .\32xl\:hover\:rounded-sm:hover{
-    border-radius: 0.125rem;
-  }
-
-  .\32xl\:hover\:rounded:hover{
-    border-radius: 0.25rem;
-  }
-
-  .\32xl\:hover\:rounded-md:hover{
-    border-radius: 0.375rem;
-  }
-
-  .\32xl\:hover\:rounded-lg:hover{
-    border-radius: 0.5rem;
-  }
-
-  .\32xl\:hover\:rounded-xl:hover{
-    border-radius: 0.75rem;
-  }
-
-  .\32xl\:hover\:rounded-2xl:hover{
-    border-radius: 1rem;
-  }
-
-  .\32xl\:hover\:rounded-3xl:hover{
-    border-radius: 1.5rem;
-  }
-
-  .\32xl\:hover\:rounded-full:hover{
-    border-radius: 9999px;
-  }
-
-  .\32xl\:hover\:rounded-t-none:hover{
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-  }
-
-  .\32xl\:hover\:rounded-r-none:hover{
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-  }
-
-  .\32xl\:hover\:rounded-b-none:hover{
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-
-  .\32xl\:hover\:rounded-l-none:hover{
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-
-  .\32xl\:hover\:rounded-t-sm:hover{
-    border-top-left-radius: 0.125rem;
-    border-top-right-radius: 0.125rem;
-  }
-
-  .\32xl\:hover\:rounded-r-sm:hover{
-    border-top-right-radius: 0.125rem;
-    border-bottom-right-radius: 0.125rem;
-  }
-
-  .\32xl\:hover\:rounded-b-sm:hover{
-    border-bottom-right-radius: 0.125rem;
-    border-bottom-left-radius: 0.125rem;
-  }
-
-  .\32xl\:hover\:rounded-l-sm:hover{
-    border-top-left-radius: 0.125rem;
-    border-bottom-left-radius: 0.125rem;
-  }
-
-  .\32xl\:hover\:rounded-t:hover{
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-  }
-
-  .\32xl\:hover\:rounded-r:hover{
-    border-top-right-radius: 0.25rem;
-    border-bottom-right-radius: 0.25rem;
-  }
-
-  .\32xl\:hover\:rounded-b:hover{
-    border-bottom-right-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem;
-  }
-
-  .\32xl\:hover\:rounded-l:hover{
-    border-top-left-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem;
-  }
-
-  .\32xl\:hover\:rounded-t-md:hover{
-    border-top-left-radius: 0.375rem;
-    border-top-right-radius: 0.375rem;
-  }
-
-  .\32xl\:hover\:rounded-r-md:hover{
-    border-top-right-radius: 0.375rem;
-    border-bottom-right-radius: 0.375rem;
-  }
-
-  .\32xl\:hover\:rounded-b-md:hover{
-    border-bottom-right-radius: 0.375rem;
-    border-bottom-left-radius: 0.375rem;
-  }
-
-  .\32xl\:hover\:rounded-l-md:hover{
-    border-top-left-radius: 0.375rem;
-    border-bottom-left-radius: 0.375rem;
-  }
-
-  .\32xl\:hover\:rounded-t-lg:hover{
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-  }
-
-  .\32xl\:hover\:rounded-r-lg:hover{
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
-  }
-
-  .\32xl\:hover\:rounded-b-lg:hover{
-    border-bottom-right-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-  }
-
-  .\32xl\:hover\:rounded-l-lg:hover{
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-  }
-
-  .\32xl\:hover\:rounded-t-xl:hover{
-    border-top-left-radius: 0.75rem;
-    border-top-right-radius: 0.75rem;
-  }
-
-  .\32xl\:hover\:rounded-r-xl:hover{
-    border-top-right-radius: 0.75rem;
-    border-bottom-right-radius: 0.75rem;
-  }
-
-  .\32xl\:hover\:rounded-b-xl:hover{
-    border-bottom-right-radius: 0.75rem;
-    border-bottom-left-radius: 0.75rem;
-  }
-
-  .\32xl\:hover\:rounded-l-xl:hover{
-    border-top-left-radius: 0.75rem;
-    border-bottom-left-radius: 0.75rem;
-  }
-
-  .\32xl\:hover\:rounded-t-2xl:hover{
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-  }
-
-  .\32xl\:hover\:rounded-r-2xl:hover{
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-  }
-
-  .\32xl\:hover\:rounded-b-2xl:hover{
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-  }
-
-  .\32xl\:hover\:rounded-l-2xl:hover{
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-  }
-
-  .\32xl\:hover\:rounded-t-3xl:hover{
-    border-top-left-radius: 1.5rem;
-    border-top-right-radius: 1.5rem;
-  }
-
-  .\32xl\:hover\:rounded-r-3xl:hover{
-    border-top-right-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem;
-  }
-
-  .\32xl\:hover\:rounded-b-3xl:hover{
-    border-bottom-right-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
-  }
-
-  .\32xl\:hover\:rounded-l-3xl:hover{
-    border-top-left-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
-  }
-
-  .\32xl\:hover\:rounded-t-full:hover{
-    border-top-left-radius: 9999px;
-    border-top-right-radius: 9999px;
-  }
-
-  .\32xl\:hover\:rounded-r-full:hover{
-    border-top-right-radius: 9999px;
-    border-bottom-right-radius: 9999px;
-  }
-
-  .\32xl\:hover\:rounded-b-full:hover{
-    border-bottom-right-radius: 9999px;
-    border-bottom-left-radius: 9999px;
-  }
-
-  .\32xl\:hover\:rounded-l-full:hover{
-    border-top-left-radius: 9999px;
-    border-bottom-left-radius: 9999px;
-  }
-
-  .\32xl\:hover\:rounded-tl-none:hover{
-    border-top-left-radius: 0px;
-  }
-
-  .\32xl\:hover\:rounded-tr-none:hover{
-    border-top-right-radius: 0px;
-  }
-
-  .\32xl\:hover\:rounded-br-none:hover{
-    border-bottom-right-radius: 0px;
-  }
-
-  .\32xl\:hover\:rounded-bl-none:hover{
-    border-bottom-left-radius: 0px;
-  }
-
-  .\32xl\:hover\:rounded-tl-sm:hover{
-    border-top-left-radius: 0.125rem;
-  }
-
-  .\32xl\:hover\:rounded-tr-sm:hover{
-    border-top-right-radius: 0.125rem;
-  }
-
-  .\32xl\:hover\:rounded-br-sm:hover{
-    border-bottom-right-radius: 0.125rem;
-  }
-
-  .\32xl\:hover\:rounded-bl-sm:hover{
-    border-bottom-left-radius: 0.125rem;
-  }
-
-  .\32xl\:hover\:rounded-tl:hover{
-    border-top-left-radius: 0.25rem;
-  }
-
-  .\32xl\:hover\:rounded-tr:hover{
-    border-top-right-radius: 0.25rem;
-  }
-
-  .\32xl\:hover\:rounded-br:hover{
-    border-bottom-right-radius: 0.25rem;
-  }
-
-  .\32xl\:hover\:rounded-bl:hover{
-    border-bottom-left-radius: 0.25rem;
-  }
-
-  .\32xl\:hover\:rounded-tl-md:hover{
-    border-top-left-radius: 0.375rem;
-  }
-
-  .\32xl\:hover\:rounded-tr-md:hover{
-    border-top-right-radius: 0.375rem;
-  }
-
-  .\32xl\:hover\:rounded-br-md:hover{
-    border-bottom-right-radius: 0.375rem;
-  }
-
-  .\32xl\:hover\:rounded-bl-md:hover{
-    border-bottom-left-radius: 0.375rem;
-  }
-
-  .\32xl\:hover\:rounded-tl-lg:hover{
-    border-top-left-radius: 0.5rem;
-  }
-
-  .\32xl\:hover\:rounded-tr-lg:hover{
-    border-top-right-radius: 0.5rem;
-  }
-
-  .\32xl\:hover\:rounded-br-lg:hover{
-    border-bottom-right-radius: 0.5rem;
-  }
-
-  .\32xl\:hover\:rounded-bl-lg:hover{
-    border-bottom-left-radius: 0.5rem;
-  }
-
-  .\32xl\:hover\:rounded-tl-xl:hover{
-    border-top-left-radius: 0.75rem;
-  }
-
-  .\32xl\:hover\:rounded-tr-xl:hover{
-    border-top-right-radius: 0.75rem;
-  }
-
-  .\32xl\:hover\:rounded-br-xl:hover{
-    border-bottom-right-radius: 0.75rem;
-  }
-
-  .\32xl\:hover\:rounded-bl-xl:hover{
-    border-bottom-left-radius: 0.75rem;
-  }
-
-  .\32xl\:hover\:rounded-tl-2xl:hover{
-    border-top-left-radius: 1rem;
-  }
-
-  .\32xl\:hover\:rounded-tr-2xl:hover{
-    border-top-right-radius: 1rem;
-  }
-
-  .\32xl\:hover\:rounded-br-2xl:hover{
-    border-bottom-right-radius: 1rem;
-  }
-
-  .\32xl\:hover\:rounded-bl-2xl:hover{
-    border-bottom-left-radius: 1rem;
-  }
-
-  .\32xl\:hover\:rounded-tl-3xl:hover{
-    border-top-left-radius: 1.5rem;
-  }
-
-  .\32xl\:hover\:rounded-tr-3xl:hover{
-    border-top-right-radius: 1.5rem;
-  }
-
-  .\32xl\:hover\:rounded-br-3xl:hover{
-    border-bottom-right-radius: 1.5rem;
-  }
-
-  .\32xl\:hover\:rounded-bl-3xl:hover{
-    border-bottom-left-radius: 1.5rem;
-  }
-
-  .\32xl\:hover\:rounded-tl-full:hover{
-    border-top-left-radius: 9999px;
-  }
-
-  .\32xl\:hover\:rounded-tr-full:hover{
-    border-top-right-radius: 9999px;
-  }
-
-  .\32xl\:hover\:rounded-br-full:hover{
-    border-bottom-right-radius: 9999px;
-  }
-
-  .\32xl\:hover\:rounded-bl-full:hover{
-    border-bottom-left-radius: 9999px;
-  }
-
   .\32xl\:border-solid{
     border-style: solid;
   }
@@ -168821,6 +167085,46 @@ video {
     max-height: 100vh;
   }
 
+  .\32xl\:max-h-xs{
+    max-height: 20rem;
+  }
+
+  .\32xl\:max-h-sm{
+    max-height: 24rem;
+  }
+
+  .\32xl\:max-h-md{
+    max-height: 28rem;
+  }
+
+  .\32xl\:max-h-lg{
+    max-height: 32rem;
+  }
+
+  .\32xl\:max-h-xl{
+    max-height: 36rem;
+  }
+
+  .\32xl\:max-h-2xl{
+    max-height: 42rem;
+  }
+
+  .\32xl\:max-h-3xl{
+    max-height: 48rem;
+  }
+
+  .\32xl\:max-h-4xl{
+    max-height: 56rem;
+  }
+
+  .\32xl\:max-h-5xl{
+    max-height: 64rem;
+  }
+
+  .\32xl\:max-h-6xl{
+    max-height: 72rem;
+  }
+
   .\32xl\:max-w-0{
     max-width: 0rem;
   }
@@ -168923,6 +167227,46 @@ video {
 
   .\32xl\:min-h-screen{
     min-height: 100vh;
+  }
+
+  .\32xl\:min-h-xs{
+    min-height: 20rem;
+  }
+
+  .\32xl\:min-h-sm{
+    min-height: 24rem;
+  }
+
+  .\32xl\:min-h-md{
+    min-height: 28rem;
+  }
+
+  .\32xl\:min-h-lg{
+    min-height: 32rem;
+  }
+
+  .\32xl\:min-h-xl{
+    min-height: 36rem;
+  }
+
+  .\32xl\:min-h-2xl{
+    min-height: 42rem;
+  }
+
+  .\32xl\:min-h-3xl{
+    min-height: 48rem;
+  }
+
+  .\32xl\:min-h-4xl{
+    min-height: 56rem;
+  }
+
+  .\32xl\:min-h-5xl{
+    min-height: 64rem;
+  }
+
+  .\32xl\:min-h-6xl{
+    min-height: 72rem;
   }
 
   .\32xl\:min-w-0{
